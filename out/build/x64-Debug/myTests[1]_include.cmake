@@ -1,0 +1,5 @@
+if(EXISTS "D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTests[1]_tests.cmake")
+  include("D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTests[1]_tests.cmake")
+else()
+  add_test(myTests_NOT_BUILT myTests_NOT_BUILT)
+endif()

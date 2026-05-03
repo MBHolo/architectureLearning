@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\Cpp\ArchitectureLearning\out\build\x64-Debug\myTests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="MathFuncTest.DescriminantBZeroCAboveZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantBZeroCBelowZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantEqualZero" Duration="1" />
+    <TestDuration Test="MathFuncTeet.DescriminantExceptionABellowZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantExceptionABellowZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantBelowZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantAboveZero" Duration="1" />
+    <TestDuration Test="MathFuncTest.DescriminantBZeroCEqualZero" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
