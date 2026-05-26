@@ -7,7 +7,7 @@
 
 //Создание класса MathFunc
 class MathFunc {
-	//Создание интерфейса
+	//Создание абстракции
 	public:
 		std::vector<double> solve(double a, double b, double c); 
 };

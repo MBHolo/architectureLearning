@@ -1,0 +1,5 @@
+if(EXISTS "D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTestsSpaceBattleMove[1]_tests.cmake")
+  include("D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTestsSpaceBattleMove[1]_tests.cmake")
+else()
+  add_test(myTestsSpaceBattleMove_NOT_BUILT myTestsSpaceBattleMove_NOT_BUILT)
+endif()

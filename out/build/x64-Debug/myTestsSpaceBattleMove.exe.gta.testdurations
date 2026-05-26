@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\Cpp\ArchitectureLearning\out\build\x64-Debug\myTestsSpaceBattleMove.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="MoveObjectTest.CheckGetPositionFunc" Duration="1" />
+    <TestDuration Test="MoveObjectTest.CheckSetPositionFunc" Duration="1" />
+    <TestDuration Test="MoveObjectTest.CheeckUpdatePositionFunc" Duration="1" />
+    <TestDuration Test="MovingObjectTest.CheckGetPositionFunc" Duration="1" />
+    <TestDuration Test="MovingObjectTest.CheckSetPositionFunc" Duration="1" />
+    <TestDuration Test="MovingObjectTest.CheeckUpdatePositionFunc" Duration="1" />
+    <TestDuration Test="BrokenMovingObjectTest.GetPositionFunc" Duration="1" />
+    <TestDuration Test="BrokenMovingObjectTest.SetPositonFunc" Duration="1" />
+    <TestDuration Test="BrokenMovingObjectTst.UpdatePositionFunc" Duration="1" />
+    <TestDuration Test="BrokenMovingObjectTest.UpdatePositionFunc" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnCounterclockwiseAbowZero" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.ConstructExceptionArgument" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnCounterclockwise" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnClockWise" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnCounterclockwiseAbowMinIndexRotate" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnClockwise" Duration="1" />
+    <TestDuration Test="RotatingObjectTest.TurnClockwiseBellowMaxIndexRotate" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.GetPositionFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.SetPositionFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.GetVelocityFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.GetIndexRotateFunc" Duration="1" />
+    <TestDuration Test="MovingObjectTest.CheckGetSpeedFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.UpdatePositionFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.TurnClockwiseFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.TurnCounterclockwiseFunc" Duration="1" />
+    <TestDuration Test="MovingObjectTest.ConstructExceptionArgument" Duration="1" />
+    <TestDuration Test="SpaceShipObject.SetVectorVelocityFunc" Duration="1" />
+    <TestDuration Test="SpaceShipObjectTest.SetVectorVelocityFunc" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

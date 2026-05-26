@@ -20,28 +20,54 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 include(GoogleTest)
 
-# --- БИБЛИОТЕКА (один раз) ---
+# --- БИБЛИОТЕКА MathFunc ---
 add_library(MathFuncLib
     src/MathFunc/MathFunc.cpp
 )
 target_include_directories(MathFuncLib PUBLIC src)
 
+# --- БИБЛИОТЕКА SpaceSShipMove ---
+add_library(MovingObject
+    "src/SpaceBattle/Move/MovingObject.cpp"
+    "src/SpaceBattle/Move/RotatingObject.cpp"
+    "src/SpaceBattle/Objects/SpaceShipObject.cpp"
+)
+target_include_directories(MovingObject PUBLIC src)
+
 # --- ОСНОВНАЯ ПРОГРАММА ---
 add_executable(${PROJECT_NAME}
     ArchitectureLearning/ArchitectureLearning.cpp
     src/MathFunc/MathFunc.cpp
+    src/SpaceBattle/Move/MovingObject.cpp
+    src/SpaceBattle/Move/RotatingObject.cpp
+    src/SpaceBattle/Objects/SpaceShipObject.cpp
 )
-target_link_libraries(${PROJECT_NAME} PRIVATE MathFuncLib)
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    MathFuncLib
+    MovingObject
+)
 
 # --- ТЕСТЫ ---
-add_executable(myTests
-    test.cpp
-)
-target_link_libraries(myTests PRIVATE
+add_executable(myTestsMathFunc
+    "tests/mathFunc/testMathFunc.cpp")
+
+target_link_libraries(myTestsMathFunc PRIVATE
     MathFuncLib
     gtest_main
     gmock_main
 )
-target_include_directories(myTests PRIVATE src)
+target_include_directories(myTestsMathFunc PRIVATE src)
 
-gtest_discover_tests(myTests)
+gtest_discover_tests(myTestsMathFunc)
+
+add_executable(myTestsSpaceBattleMove
+    "tests/spaceBattle/testSpaceBattleMove.cpp")
+
+target_link_libraries(myTestsSpaceBattleMove PRIVATE
+    MovingObject
+    gtest_main
+    gmock_main
+)
+target_include_directories(myTestsSpaceBattleMove PRIVATE src)
+
+gtest_discover_tests(myTestsSpaceBattleMove)
