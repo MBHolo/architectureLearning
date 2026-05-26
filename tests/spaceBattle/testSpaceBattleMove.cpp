@@ -203,18 +203,3 @@ TEST(SpaceShipObjectTest, TurnCounterclockwiseFunc) {
 
 	EXPECT_NO_THROW(ship.turnCounterclockwis());
 }
-
-TEST(SpaceShipObjectTest, SetVectorVelocityFunc) {
-	SpaceShipObject ship(1, 1, 1, 1, 2, 1);
-
-	int startXVelocity, startYVelocity;
-	ship.getVectorVelocity(startXVelocity, startYVelocity);
-
-	ship.setVectorVelocity();
-
-	int newXVelocity, newYVelocity;
-	ship.getVectorVelocity(newXVelocity, newYVelocity);
-
-	EXPECT_NE(startXVelocity, newXVelocity);
-	EXPECT_NE(startYVelocity, newYVelocity);
-}

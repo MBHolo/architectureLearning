@@ -58,3 +58,10 @@
 428	607	8014645415613255	ArchitectureLearning.exe	8d220fa710c4a011
 24	428	8014645955611958	CMakeFiles/ArchitectureLearning.dir/ArchitectureLearning/ArchitectureLearning.cpp.obj	63a62c12d23e4aa6
 429	633	8014645959658578	ArchitectureLearning.exe	8d220fa710c4a011
+24	298	8014648114288423	myTestsSpaceBattleMove.exe	763f0870061835a
+24	298	8014648114288423	myTestsSpaceBattleMove[1]_tests.cmake	763f0870061835a
+24	298	8014648114288423	D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTestsSpaceBattleMove[1]_tests.cmake	763f0870061835a
+18	906	8014648596406438	CMakeFiles/myTestsSpaceBattleMove.dir/tests/spaceBattle/testSpaceBattleMove.cpp.obj	9fd630f023a726f9
+906	1297	8014648609145025	myTestsSpaceBattleMove.exe	763f0870061835a
+906	1297	8014648609145025	myTestsSpaceBattleMove[1]_tests.cmake	763f0870061835a
+906	1297	8014648609145025	D:/Cpp/ArchitectureLearning/out/build/x64-Debug/myTestsSpaceBattleMove[1]_tests.cmake	763f0870061835a
